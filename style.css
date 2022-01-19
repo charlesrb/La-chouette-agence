@@ -13,6 +13,16 @@ button {
     outline: none!important;
 }
 
+
+.logo__img {
+    width:100px;
+    height:100px;
+}
+
+.intro {
+    font-size:24px;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -301,8 +311,12 @@ a:hover {
     line-height: 44px;
 }
 
+blockquote {
+    color:#575757;
+}
 .navbar-brand img {
-    max-height: 200px;
+    height: 40px;
+    width:214px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -510,6 +524,7 @@ button {
     box-shadow: none;
 }
 
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -677,7 +692,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -690,9 +705,13 @@ p {
     font-family: "Open Sans";
 }
 
+.footer-text {
+    color:black!important;
+}
+
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -702,6 +721,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display:flex;
+    justify-content: space-around;
 }
 
 h2 {
@@ -741,6 +762,12 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width:315px;
+    height:315px;
+}
+
+.title-cta {
+    font-size:18px;
 }
 
 .portfolio-row {
@@ -775,12 +802,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FAE3D6!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -818,11 +845,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -968,6 +995,12 @@ h4 {
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
+       
+    }
+
+    .navbar-header img {
+        width:100%;
+        height:100%;
     }
     .nav-invert .navbar-toggle {
         float: left;
