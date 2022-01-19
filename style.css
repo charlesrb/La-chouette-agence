@@ -531,7 +531,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -762,8 +762,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width:315px;
-    height:315px;
+    width:100%;
+    height:100%;
 }
 
 .title-cta {
