@@ -66,6 +66,8 @@ a:hover {
     padding: 20px 50px;
 }
 
+
+
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -99,7 +101,10 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+.text-header {
+    font-size:20px;
+    color:#333!important;
+}
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -695,6 +700,7 @@ p {
     font-size: 12px;
 }
 
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -804,6 +810,8 @@ h4 {
 .tc-white {
     color: #FAE3D6!important;
 }
+
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
